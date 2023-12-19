@@ -1,7 +1,7 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:pr_miro_well_flutter/models/connectivity_model.dart';
 
+import '../model/connectivity_model.dart';
 
 class ConnectivityProvider extends ChangeNotifier {
   Connectivity connectivity = Connectivity();

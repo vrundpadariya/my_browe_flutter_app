@@ -1,14 +1,13 @@
-import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:pr_miro_well_flutter/models/url_model.dart';
+import 'package:my_browerser/provider/connectivity_provider.dart';
+import 'package:my_browerser/provider/url_provider.dart';
+import 'package:my_browerser/views/HomePage.dart';
+import 'package:my_browerser/views/Splash_screens.dart';
+import 'package:my_browerser/views/introduction_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'providers/connectivity_provider.dart';
-import 'providers/url_provider.dart';
-import 'views/screens/HomePage.dart';
-import 'views/screens/Splash_screens.dart';
-import 'views/screens/introduction_screen.dart';
+
+import 'model/url_model.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -49,8 +48,8 @@ void main() async {
         themeMode: ThemeMode.system,
         debugShowCheckedModeBanner: false,
         routes: {
-          '/': (context) => Intro_screen(),
-          'Splash_Scr': (context) => Splash_screens(),
+          '/': (context) => Splash_screens(),
+          'Splash_Scr': (context) => Intro_screen(),
           'HomePage': (context) => const HomePage(),
         },
       ),

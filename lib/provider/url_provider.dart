@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:pr_miro_well_flutter/models/url_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../model/url_model.dart';
 
 class UrlProvider extends ChangeNotifier {
   UrlModel urlModel;

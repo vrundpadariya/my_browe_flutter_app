@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:pr_miro_well_flutter/providers/connectivity_provider.dart';
-import 'package:pr_miro_well_flutter/providers/url_provider.dart';
 import 'package:provider/provider.dart';
+
+import '../provider/connectivity_provider.dart';
+import '../provider/url_provider.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -337,6 +338,17 @@ class _HomePageState extends State<HomePage> {
                                   onPressed: () {
                                     Provider.of<UrlProvider>(context,
                                             listen: false)
+                                        .goBack();
+                                  },
+                                  icon: const Icon(
+                                    Icons.arrow_back_ios,
+                                    size: 35,
+                                  ),
+                                ),
+                                IconButton(
+                                  onPressed: () {
+                                    Provider.of<UrlProvider>(context,
+                                            listen: false)
                                         .goHome();
                                   },
                                   icon: const Icon(
@@ -352,17 +364,6 @@ class _HomePageState extends State<HomePage> {
                                   },
                                   icon: const Icon(
                                     Icons.bookmark_add_outlined,
-                                    size: 35,
-                                  ),
-                                ),
-                                IconButton(
-                                  onPressed: () {
-                                    Provider.of<UrlProvider>(context,
-                                            listen: false)
-                                        .goBack();
-                                  },
-                                  icon: const Icon(
-                                    Icons.arrow_back_ios,
                                     size: 35,
                                   ),
                                 ),

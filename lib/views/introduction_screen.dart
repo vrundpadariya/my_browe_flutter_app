@@ -17,30 +17,65 @@ class _Intro_screenState extends State<Intro_screen> {
         body: IntroductionScreen(
           pages: [
             PageViewModel(
-                image: FlutterLogo(),
-                title: "welcome search engine app",
-                body: "we have amazing app"),
+              title: "welcome search engine app",
+              body: "we have Search engine like google",
+              image: Container(
+                width: 300,
+                height: 300,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage("lib/asset/google.gif"),
+                  ),
+                ),
+              ),
+            ),
             PageViewModel(
-                image: FlutterLogo(),
                 title: "welcome search engineapp",
-                body: "we have amazing app"),
+                image: Container(
+                  width: 300,
+                  height: 300,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage("lib/asset/yahoo.gif"),
+                    ),
+                  ),
+                ),
+                body: "we have Search engine like Yahoo"),
             PageViewModel(
-                image: FlutterLogo(),
-                title: "welcome search engine app",
-                body: "we have amazing app"),
+              title: "welcome search engine app",
+              body: "we have search engine like bing",
+              image: Container(
+                width: 300,
+                height: 300,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage("lib/asset/bing.gif"),
+                  ),
+                ),
+              ),
+            ),
             PageViewModel(
-                image: FlutterLogo(),
-                title: "welcome search engine app",
-                body: "we have amazing app"),
+              title: "welcome search engine app",
+              body: "we have search engine like Duck Duck go",
+              image: Container(
+                width: 300,
+                height: 300,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    image: AssetImage("lib/asset/duck duck go.gif"),
+                  ),
+                ),
+              ),
+            ),
           ],
           done: Text("done"),
           onDone: () async {
             SharedPreferences preferences =
-            await SharedPreferences.getInstance();
+                await SharedPreferences.getInstance();
             preferences.setBool('IsIntroVisited', true);
             Navigator.pushReplacementNamed(context, "HomePage");
           },
-          next: Text("go next page"),
+          next: Text("next"),
           showNextButton: true,
           skip: Text("skip"),
           onSkip: () {
