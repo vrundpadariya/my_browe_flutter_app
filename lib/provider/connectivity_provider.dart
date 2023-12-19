@@ -1,6 +1,5 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-
 import '../model/connectivity_model.dart';
 
 class ConnectivityProvider extends ChangeNotifier {
