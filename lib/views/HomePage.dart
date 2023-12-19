@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
+      //onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
       child: Scaffold(
         appBar: AppBar(
           title: const Text(
@@ -247,15 +247,19 @@ class _HomePageState extends State<HomePage> {
                     .connectivityModel
                     .connectivityStatus ==
                 "waiting")
-            ? const Center(
-                child: Text(
-                  "Offline",
-                  style: TextStyle(
-                    fontSize: 22,
-                    fontWeight: FontWeight.w500,
+            ? Center(
+                child: Container(
+                height: 300,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.fill,
+                    image: AssetImage(
+                      "lib/asset/nointernet.png",
+                    ),
                   ),
                 ),
-              )
+              ))
             : Column(
                 children: [
                   Expanded(

@@ -13,7 +13,7 @@ class _Splash_screensState extends State<Splash_screens> {
   @override
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 5), () {
-      Navigator.pushNamed(context, "HomePage");
+      Navigator.pushNamed(context, "intro");
     });
     return Scaffold(
       body: Center(
@@ -21,12 +21,12 @@ class _Splash_screensState extends State<Splash_screens> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              height: 200,
-              width: 200,
+              height: 300,
+              width: 300,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage("lib/asset/splash screen.gif"),
-                    fit: BoxFit.fill),
+                    image: AssetImage("lib/asset/Logo-4-[remix].gif"),
+                    fit: BoxFit.cover),
               ),
             ),
           ],

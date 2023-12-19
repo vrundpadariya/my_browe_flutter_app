@@ -22,7 +22,7 @@ class _Intro_screenState extends State<Intro_screen> {
               image: Container(
                 width: 300,
                 height: 300,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage("lib/asset/google.gif"),
                   ),
@@ -30,11 +30,11 @@ class _Intro_screenState extends State<Intro_screen> {
               ),
             ),
             PageViewModel(
-                title: "welcome search engineapp",
+                title: "welcome search engine app",
                 image: Container(
                   width: 300,
                   height: 300,
-                  decoration: BoxDecoration(
+                  decoration: const BoxDecoration(
                     image: DecorationImage(
                       image: AssetImage("lib/asset/yahoo.gif"),
                     ),
@@ -47,9 +47,9 @@ class _Intro_screenState extends State<Intro_screen> {
               image: Container(
                 width: 300,
                 height: 300,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("lib/asset/bing.gif"),
+                    image: AssetImage("lib/asset/bing.png"),
                   ),
                 ),
               ),
@@ -60,7 +60,7 @@ class _Intro_screenState extends State<Intro_screen> {
               image: Container(
                 width: 300,
                 height: 300,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                   image: DecorationImage(
                     image: AssetImage("lib/asset/duck duck go.gif"),
                   ),

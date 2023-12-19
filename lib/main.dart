@@ -49,7 +49,7 @@ void main() async {
         debugShowCheckedModeBanner: false,
         routes: {
           '/': (context) => Splash_screens(),
-          'Splash_Scr': (context) => Intro_screen(),
+          'intro': (context) => Intro_screen(),
           'HomePage': (context) => const HomePage(),
         },
       ),
