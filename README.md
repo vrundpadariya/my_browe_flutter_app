@@ -29,5 +29,5 @@ Set your navigation controls and personalize the appearance of your cosmic journ
 Revolutionize Your Search Journey
 Embark on a seamless, immersive adventure through the endless corridors of information! Download Searchopia now and ignite the supernova of your browsing experience! Thank you for choosing Searchopia—where exploration knows no bounds! 🚀🔭✨
 
-<img src="![1](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/5e8eb6d3-13c0-445d-93f6-6c9bc9c04b49)
+<img src="https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/5e8eb6d3-13c0-445d-93f6-6c9bc9c04b49
 " height="260">
