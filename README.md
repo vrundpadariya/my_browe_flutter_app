@@ -30,22 +30,13 @@ Revolutionize Your Search Journey
 Embark on a seamless, immersive adventure through the endless corridors of information! Download Searchopia now and ignite the supernova of your browsing experience! Thank you for choosing Searchopia—where exploration knows no bounds! 🚀🔭✨
 
 
-![1](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/b76d2ef9-995d-4b71-bd4a-6ff1670212a4)
-
-![2](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/119cc612-da8e-4044-9b2a-8d7c88c07275)
-
-![3](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/1520d711-a4f8-4cc2-a78c-cd373652e845)
-
-![4](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/9e6c3e12-6a67-4f1b-8526-582a91d7f6ce)
-
-![5](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/0457eb1b-7e8c-47fa-8f58-d02fe1a01fe8)
-
-![6](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/81f7b1a5-45df-4258-8e0e-11565506531e)
-
-![7](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/bb69b264-d5ed-4d89-859e-4007267d2cd6)
-
-![8](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/f734b1e3-de8d-49bb-a636-bd182abde120)
-
-![9](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/a16b33c0-160e-4626-9045-46de5805822a)
-
-![10](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/9f78e6d3-3358-43e9-a150-58759e5d102a)
+<img src="" height="260">
+![6](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/265bfc15-0a6f-4bd4-ad78-a806bbc7ba68)
+![5](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/31d69893-71a2-41f1-b6fe-7293240566aa)
+![4](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/c1961ab3-976e-4385-9f8f-9bf8ef0b53a9)
+![3](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/5f603ef4-3ef7-469e-8fa5-71b63bce6402)
+![2](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/43bc9be7-6028-447c-aa07-19e72cfe3109)
+![1](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/a047914f-602a-4bea-820a-e4767dd53d1c)
+![7](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/088ba61b-4538-49c9-973e-4fc40b9be1df)
+![8](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/c90027e2-810f-49be-b76d-22519e936591)
+![9](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/fbc597a0-6243-475a-99ec-85c293648bd5)
