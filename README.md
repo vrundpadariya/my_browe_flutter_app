@@ -30,13 +30,5 @@ Revolutionize Your Search Journey
 Embark on a seamless, immersive adventure through the endless corridors of information! Download Searchopia now and ignite the supernova of your browsing experience! Thank you for choosing Searchopia—where exploration knows no bounds! 🚀🔭✨
 
 
-<img src="https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/94997d13-46e2-490e-868b-23ec1bfc3fb9" height="260">
-![6]()
-![5](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/78373bcb-332e-42d4-93ee-d3c218617f4f)
-![4 copy](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/b895e5d7-8835-4e22-b773-0d7287df817d)
-![3 copy](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/90e0b12e-25b1-4744-930b-1e746ae74a33)
-![2 copy](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/41a23fb6-61bd-4e96-b0d5-eecea9e7b2aa)
-![1](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/2f10ae2e-d5a8-4a85-bed3-ffd183f1e1cd)
-![7](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/cd05385e-f2af-45f6-be1d-ca67a837af79)
-![8](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/fa5c3fc7-b7c0-4b24-9858-9161bb793712)
-![9](https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/a0d88ce2-2914-499b-8fda-351a03b729a1)
+<img src="https://github.com/vrundpadariya/my_browe_flutter_app/assets/133338321/988d1fb4-4981-4557-b6c1-417485612865" width="200px">
+
