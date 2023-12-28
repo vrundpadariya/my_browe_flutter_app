@@ -1,23 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:my_browerser/provider/connectivity_provider.dart';
-import 'package:my_browerser/provider/url_provider.dart';
-import 'package:my_browerser/views/HomePage.dart';
-import 'package:my_browerser/views/Splash_screens.dart';
-import 'package:my_browerser/views/introduction_screen.dart';
+import 'package:my_browerser/app/one_time_intro/views/introduction_screen.dart';
+import 'package:my_browerser/app/splashscreen/views/Splash_screens.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'model/url_model.dart';
+import 'app/homescreen/model/url_model.dart';
+import 'app/homescreen/provider/connectivity_provider.dart';
+import 'app/homescreen/provider/url_provider.dart';
+import 'app/homescreen/views/HomePage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  // if (Platform.isAndroid) {
-  //   await AndroidInAppWebViewController.setWebContentsDebuggingEnabled(true);
-  // }
-
   SharedPreferences prefs = await SharedPreferences.getInstance();
-
   List<String> bookmarkPageName = prefs.getStringList('bookmarkPageName') ?? [];
   List<String> bookmarkPageUrl = prefs.getStringList('bookmarkPageUrl') ?? [];
 
@@ -48,7 +43,7 @@ void main() async {
         themeMode: ThemeMode.system,
         debugShowCheckedModeBanner: false,
         routes: {
-          '/': (context) => Splash_screens(),
+          '/': (context) => const Splash_screens(),
           'intro': (context) => Intro_screen(),
           'HomePage': (context) => const HomePage(),
         },
