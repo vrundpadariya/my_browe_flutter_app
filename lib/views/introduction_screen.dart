@@ -2,14 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class Intro_screen extends StatefulWidget {
+class Intro_screen extends StatelessWidget {
   Intro_screen({Key? key}) : super(key: key);
 
-  @override
-  State<Intro_screen> createState() => _Intro_screenState();
-}
-
-class _Intro_screenState extends State<Intro_screen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(

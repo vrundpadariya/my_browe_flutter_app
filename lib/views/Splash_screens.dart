@@ -2,14 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
-class Splash_screens extends StatefulWidget {
+class Splash_screens extends StatelessWidget {
   const Splash_screens({super.key});
 
-  @override
-  State<Splash_screens> createState() => _Splash_screensState();
-}
-
-class _Splash_screensState extends State<Splash_screens> {
   @override
   Widget build(BuildContext context) {
     Timer(Duration(seconds: 5), () {
